@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="CSS/css.css"/>
+
+    <!--UPANDO ICONES-->
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="imagens/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="imagens/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="imagens/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest"/>
+
+    <!--FECHANDO ICONES-->
+
+    <title>Portifolio</title>
+  </head>
+  <body>
+    <!--ABRINDO HAMBURGUER-->
+
+    <div class="container">
+      <div class="hamburguer">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <span>fechar</span>
+      </div>
+
+      <!--FECHANDO HAMBURGUER-->
+
+      <!--ABRINDO HEADER-->
+
+      <header>
+        <div class="img-wrapper">
+          <img src="imagens/fachadaheader.jpg" alt=""/>
+        </div>
+        <div class="banner">
+          <h1>ArchViz-Solutions</h1>
+          <p>Giordano Cherini</p>
+          <button>Saiba mais</button>
+        </div>
+      </header>
+
+      <!--FECHANDO HEADER-->
+
+      <!--ABRINDO MENU LATERAL-->
+
+      <div class="sidebar">
+        <nav>
+          <ul class="menu">
+            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+            <li class="menu-item">
+              <a href="#knowledge" class="menu-link">Conhecimentos</a>
+            </li>
+            <li class="menu-item">
+              <a href="#projects" class="menu-link">Projetos</a>
+            </li>
+            <li class="menu-item">
+              <a href="#contact" class="menu-link">Contato</a>
+            </li>
+            <li class="menu-item">
+              <a href="#orcamento" class="menu-link">Orçamento</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="social-media">
+          <a href="https://www.facebook.com/giordano.cardosocherini/" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/giordanocherini/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <!--FECHANDO MENU LATERAL-->
+
+      <!--ABRINDO CONHECIMENTOS-->
+
+      <section id="knowledge" class="sessao-conhecimentos">
+        <div class="sessao-header">
+          <h1>Conhecimentos</h1>
+        </div>
+        <div class="conhecimentos">
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fas fa-solid fa-vector-square"></i>
+              <h3>AutoCad</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>
+                CONHECIMENTO AVANÇADO<br/>
+                <br />
+                No passado trabalhei mais afundo com o software no
+                desenvolvimento de projetos executivos. Porém hoje utilizo
+                somente para me auxiliar na produção de imagens.
+              </p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fas fa-light fa-cube"></i>
+              <h3>SketchUp</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>
+                CONHECIMENTO AVANÇADO.<br/>
+                <br />Capacidade de modelar diversos tipos de arquitetura com
+                altíssimo nível de detalhe.
+              </p>
+            </div>
+          </div>
+          <div class="conhecimento">
+            <div class="conhecimento-header">
+              <i class="fas fa-solid fa-cubes"></i>
+              <h3>Lumion</h3>
+            </div>
+            <div class="conhecimento-text">
+              <p>
+                CONHECIMENTO AVANÇADO.<br/>
+                <br />O software perfeito quando o assunto é arquitetura. Ele
+                une velocidade à qualidade para podermos sempre cumprir com os
+                prazos e anseios do cliente. Minha especialidade está na
+                renderização de fachadas diurnas, todavia, estou apto a
+                desenvolver qualquer tipo de iluminação ambiente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FECHANDO CONHECIMENTOS-->
+
+      <!--ABRINDO PROJETOS-->
+
+      <div id="projects" class="projetos">
+        <h1>Projetos</h1>
+      </div>
+      <div class="slider">
+        <div class="slides">
+          <!--Radio buttons-->
+          <input type="radio" name="radio-btn" id="radio1"/>
+          <input type="radio" name="radio-btn" id="radio2"/>
+          <input type="radio" name="radio-btn" id="radio3"/>
+          <input type="radio" name="radio-btn" id="radio4"/>
+          <!-- fim Radio buttons-->
+
+          <!--Slide images-->
+          <div class="slide first">
+            <img src="imagens/cena1.jpg" alt="imagem1"/>
+          </div>
+
+          <div class="slide">
+            <img src="imagens/cena2.jpg" alt="imagem2"/>
+          </div>
+
+          <div class="slide">
+            <img src="imagens/cena11.jpg" alt="imagem3"/>
+          </div>
+
+          <div class="slide">
+            <img src="imagens/cena7.jpg" alt="imagem4"/>
+          </div>
+          <!--fim Slide images-->
+
+          <!--Navigation auto-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+        </div>
+
+        <div class="manual-navigation">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+      </div>
+
+      <!--FECHANDO PROJETOS-->
+
+      <!--ABRINDO CONTATO-->
+
+      <section id="contact" class="sessao-contato">
+        <div class="contato-wrapper">
+          <div class="contato-left"></div>
+          <div class="contato-right">
+            <h1>Contato</h1>
+
+            <form method="get" action="index.html" target="_self">
+              <div class="input-group">
+                <input type="text" class="field" id="nome"/>
+                <label for="nome" class="field-label">Nome</label>
+              </div>
+              <div class="input-group">
+                <input type="text" class="field" id="email"/>
+                <label for="email" class="field-label">E-mail</label>
+              </div>
+              <div class="input-group">
+                <textarea class="field" id="mensagem"></textarea>
+                <label for="mensagem" class="field-label">Mensagem</label>
+              </div>
+              <button type="submit" class="btn-submit">Enviar</button>
+            </form>
+          
+          </div>
+        </div>
+      </section>
+
+      <!--FECHANDO CONTATO-->
+
+      <!--ABRINDO ORÇAMENTO-->
+
+      <section class="sessao-orcamento" id="orcamento">
+        <div class="orcamento-wrapper">
+          <h1>Faça Um Orçamento</h1>
+          <form method="get" action="index.html" target="_self">
+            <label for="qtde">Quantidade de Imagens:</label>
+            <input type="number" min="1" name="qtde" id="qtde" required/>
+            <label for="nightscene">Preciso de uma iluminação Noturna:</label>
+            <input type="checkbox" name="nightscene" id="nightscene"/>
+            <label>Planta Humanizada:</label>
+            <div class="group-layout">
+              <div>
+                <input type="radio" name="Planta" id="plantasim" required/>
+                <label for="plantasim">Preciso de Planta Humanizada.</label>
+              </div>
+              <div>
+                <input type="radio" name="Planta" id="plantanao"/>
+                <label for="plantanao">Não preciso.</label>
+              </div>
+            </div>
+            <label for="prazo">Prazo normal: 10 dia(s)</label>
+            <input
+              type="range"
+              name="prazo"
+              id="prazo"
+              min="1"
+              max="10"
+              value="10"
+            />
+            <label id="preco">R$0,00</label>
+            <button class="btn-submit-orcamento" type="submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <!--FECHANDO DIV CONTAINER-->
+
+    <!--FECHANDO ORÇAMENTO-->
+
+    <!--ABRINDO MENU DE OPINIÃO-->
+
+    <div class="container_chat">
+      <div class="arrow_icon">
+        <i class="fas fa-thin fa-arrow-down" id="arrow_down"></i>
+        <i class="fas fa-thin fa-arrow-up" id="arrow_up"></i>
+        <i class="fas fa-light fa-xmark" id="xclose"></i>
+      </div>
+
+      <div class="chat_content" id="chat-content">
+        <p>Me conta, o que você achou do nosso trabalho?</p>
+        <br />
+        <form id="form">
+          <div class="radio1">
+            <input type="radio" name="radio" class="selection-radio" required/>
+            <label for="radio">Muito bom!</label>
+          </div>
+          <br />
+          <div class="radio2">
+            <input type="radio" name="radio" class="selection-radio2"/>
+            <label for="radio">Regular.</label>
+          </div>
+          <br />
+          <div class="radio3">
+            <input type="radio" name="radio" class="selection-radio3"/>
+            <label for="radio">Deixou a desejar.</label>
+          </div>
+          <br /><br />
+          <button type="submit" class="btn-alert" id="btn-chat">
+            Seguinte
+          </button>
+        </form>
+      </div>
+
+      <!--FECHANDO MENU DE OPINIÃO-->
+
+      <!--ABRINDO MENU DE OPINIÃO 2 (EXECUTADO APÓS O BUTTON "SEGUINTE" SER CLICADO)-->
+
+      <div class="chat_content2" id="chat-content2">
+        <p>Gostaria de deixar uma opinião sobre o nosso conteúdo?</p>
+        <br />
+        <form id="form2">
+          <div class="label1">
+            <textarea
+              name="label_sugestao"
+              id="label_sugestao"
+              required
+            ></textarea>
+            <label for="label_sugestao"></label>
+          </div>
+          <br />
+          <button type="submit" class="btn-alertEnviar" id="btn-chat">
+            Enviar
+          </button>
+        </form>
+      </div>
+    </div>
+    <!--FECHANDO DIV CONTAINER DOS MENUS-->
+
+    <!--FECHANDO MENU DE OPINIÃO 2-->
+
+    <footer>
+      <div class="footer-content">
+        <p>Copyright &copy; 2022. <strong>Giordano Cardoso Cherini.</strong></p>
+      </div>
+    </footer>
+    <script src="JS/js.js"></script>
+  </body>
+</html>
